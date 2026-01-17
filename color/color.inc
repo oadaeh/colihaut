@@ -7,13 +7,14 @@ $info = array(
   // Available colors and color labels used in theme.
   'fields' => array(
     'top' => t('Header background'),
-    'bodybg' => t('Main background'),
+    'base' => t('Main background'),
     'pagebg' => t('Page background'),
     'footer' => t('Footer background'),
     'titleslogan' => t('Title and slogan'),
     'text' => t('Text color'),
     'nodeheader' => t('Article Header'),
     'link' => t('Link color'),
+    'linkhover' => t('Link hover color'),
   ),
   // Pre-defined color schemes.
   'schemes' => array(
@@ -21,39 +22,42 @@ $info = array(
       'title' => t('Deep Blue (default)'),
       'colors' => array(
         'top' => '#0779bf',
-        'bodybg' => '#f2f2f2',
+        'base' => '#f2f2f2',
         'pagebg' => '#ffffff',
         'footer' => '#292929',
         'titleslogan' => '#fffeff',
         'text' => '#3b3b3b',
-        'nodeheader' => '#0779bf',
+        'nodeheader' => '#0779be',
         'link' => '#0071b3',
+        'linkhover' => '#0779bd',
       ),
     ),
     'green' => array(
       'title' => t('Grass Green'),
       'colors' => array(
         'top' => '#259824',
-        'bodybg' => '#f2f2f2',
+        'base' => '#f2f2f2',
         'pagebg' => '#ffffff',
         'footer' => '#1f1d1c',
         'titleslogan' => '#fffeff',
         'text' => '#3b3b3b',
-        'nodeheader' => '#259824',
+        'nodeheader' => '#259823',
         'link' => '#259824',
+        'linkhover' => '#259822',
       ),
     ),
     'brown' => array(
       'title' => t('Earth Brown'),
       'colors' => array(
         'top' => '#985624',
-        'bodybg' => '#f2f2f2',
+        'base' => '#f2f2f2',
         'pagebg' => '#ffffff',
         'footer' => '#24272c',
         'titleslogan' => '#fffeff',
         'text' => '#4a4a4a',
-        'nodeheader' => '#985624',
+        'nodeheader' => '#985623',
         'link' => '#985624',
+        'linkhover' => '#985622',
       ),
     ),
   ),
@@ -62,28 +66,4 @@ $info = array(
   'css' => array(
     'css/colors.css',
   ),
-
-  // Files to copy.
-  'copy' => array(),
-
-  // Gradient definitions.
-  'gradients' => array(),
-
-  // Color areas to fill (x, y, width, height).
-  'fill' => array(),
-
-  // Coordinates of all the theme slices (x, y, width, height)
-  // with their filename as used in the stylesheet.
-  'slices' => array(),
-
-  // Reference color used for blending. Matches the base.png's colors.
-  'blend_target' => '#ffffff',
-
-  // Preview files.
-  'preview_css' => 'color/preview.css',
-  'preview_js' => 'color/preview.js',
-  'preview_html' => 'color/preview.html',
-
-  // Base file for image generation.
-  'base_image' => 'color/base.png',
 );

@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 
 /* ---------- Overall Specifications ---------- */
 
@@ -610,13 +610,11 @@ margin:auto;
 
 /* ------------------- Main ------------------- */
 
+.l-wrapper-inner,
 .l-container {
   margin-top: 20px;
   margin-bottom: 40px;
-}
-
-.l-main-wrapper {
-  background-color: #F2F2F2;
+  padding: 20px;
 }
 
 /* ----------------- Top ----------------- */
@@ -643,9 +641,6 @@ main h2 {
 .view-mode-teaser h2 {
   margin-top: 0;
   padding-top: 0.5em;
-}
-.view-mode-teaser h2 a {
-  color: #181818;
 }
 .view-mode-teaser {
   border-bottom: 1px solid #d3d7d9;
