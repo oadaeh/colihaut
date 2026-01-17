@@ -25,7 +25,8 @@ a:focus {
 a:active {
   color: #0779bd;
 }
-body {
+body,
+.l-main-wrapper {
   background-color: #f2f2f2;
 }
 .l-footer-wrapper,
